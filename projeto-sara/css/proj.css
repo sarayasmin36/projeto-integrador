@@ -1,0 +1,103 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0f4601dc;
+    color: white;
+    text-align: left;
+    padding: 8px;
+    display: flex;   
+    justify-content: flex-start;
+    gap: 600px;
+  }
+
+  .logo {
+    background: none;       
+    border: none;           
+    color: white;           
+    font-size: 16px;            
+    padding: 0;             
+  }
+
+  .botoes {
+    display: flex;     
+    gap: 15px;         
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0f4601dc;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0c3a01;
+  }
+
+  .meio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;      
+    text-align: center;
+    gap: 15px;
+    padding-top: 185px;               
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .caixinha {
+    background-color: rgba(15, 70, 1, 0.85); /* fundo semi-transparente combinando com header */
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    color: white;
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  .caixinha h1,
+  .caixinha h2,
+  .caixinha h3 {
+    margin: 10px 0;
+  }
+  
+  
+  .botoes-principais {
+    display: flex;
+    justify-content: center;
+    gap: 15px;                    
+  }
+  
+  .meio button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f4601dc;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .meio button:hover {
+    background-color: #0c3a01;
+  }
+
+  footer {
+    background-color: #0f4601dc; 
+    color: white;
+    text-align: center;
+    padding: 15px 8px;             
+    position: fixed;              
+    bottom: 0;                    
+    width: 100%;                 
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
