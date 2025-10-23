@@ -1,9 +1,28 @@
+section p {
+    margin-bottom: 15px;
+    text-align: justify;
+    border-left: 6px solid #00b86b; 
+    padding-left: 10px; 
+}
+
+section {
+  margin-bottom: 60px; 
+}
+
+section h2 {
+            color: #006644;
+            border-left: 6px solid #006644;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f6fdf8;
   color: #222;
   margin: 0;
   padding: 0;
+  padding-bottom: 60px;
 }
   
   header {
@@ -50,15 +69,11 @@ body {
   }
 
   .meio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;      
-    text-align: center;
+    display: block; 
+    max-width: 1100px; 
+    margin: 120px auto 80px; 
+    padding: 0 20px; 
     gap: 15px;
-    padding-top: 185px;               
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .caixinha {
@@ -110,3 +125,12 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
   }
+
+  .fotonos {
+  display: block;
+  margin: 10px ; 
+  width: 400px;           
+  height: auto;           
+  border-radius: 10px;    
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}

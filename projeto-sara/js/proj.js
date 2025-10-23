@@ -1,4 +1,4 @@
-document.getElementById("btn1").addEventListener("click", function() {
+document.getElementById("btn4").addEventListener("click", function() {
   window.location.href = "quemsomos.html";
 });
 
@@ -10,7 +10,7 @@ document.getElementById("btn3").addEventListener("click", function() {
   window.location.href = "pesquisadores.html";
 });
 
-document.getElementById("btn4").addEventListener("click", function() {
+document.getElementById("btn1").addEventListener("click", function() {
   window.location.href = "tipos.html";
 });
 
