@@ -15,7 +15,7 @@ document.getElementById("btn2").addEventListener("click", function() {
 });
 
 document.getElementById("btnLogo").addEventListener("click", function() {
-  window.location.href = "proj.html";
+  window.location.href = "index.html";
 });
 
 document.getElementById("btn5").addEventListener("click", function() {
