@@ -1,4 +1,4 @@
-section p {
+/*section p {
     margin-bottom: 15px;
     text-align: justify;
     border-left: 6px solid #00b86b; 
@@ -77,7 +77,7 @@ body {
   }
 
   .caixinha {
-    background-color: rgba(15, 70, 1, 0.85); /* fundo semi-transparente combinando com header */
+    background-color: rgba(15, 70, 1, 0.85); 
     padding: 40px 50px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
@@ -133,4 +133,394 @@ body {
   height: auto;           
   border-radius: 10px;    
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.nanotecnologia-celular {
+  max-width: 900px;
+  margin: 60px auto;                  
+  padding: 40px 30px;                 
+  background-color: #eaf8f0;          
+  border-radius: 20px;                 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
+  text-align: justify;
+  line-height: 1.7;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #222;
+  }
+
+.nanotecnologia-celular h2 {
+  text-align: center;
+  color: #006644;                     
+  font-size: 2em;                      
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.nanotecnologia-celular h3 {
+  color: #0f4601;                      
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.nanotecnologia-celular p {
+  margin-bottom: 18px;
+  font-size: 1em;
+}
+
+.nanotecnologia-celular ul {
+  margin-left: 25px;
+  margin-bottom: 18px;
+}
+
+.nanotecnologia-celular li {
+  margin-bottom: 10px;
+}
+
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+video {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f6fdf8;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+  
+header {
+  background: linear-gradient(120deg, #006644, #00b86b);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.botoes {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0f4601dc;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0c3a01;
+}
+
+ 
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background-color: #eaf8f0; 
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: justify;
+  line-height: 1.7;
+}
+
+section h2 {
+  text-align: center;
+  color: #006644;
+  font-size: 2em;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+section h3 {
+  color: #0f4601;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+section p {
+  margin-bottom: 18px;
+  font-size: 1em;
+}
+
+section ul {
+  margin-left: 25px;
+  margin-bottom: 18px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+ 
+.meio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 15px;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.caixinha {
+  background-color: rgba(15, 70, 1, 0.85);
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  max-width: 600px;
+  width: 90%;
+}
+
+.caixinha h1,
+.caixinha h2,
+.caixinha h3 {
+  margin: 10px 0;
+}
+
+.meio button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0f4601dc;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.meio button:hover {
+  background-color: #0c3a01;
+}
+
+  
+footer {
+  background: linear-gradient(120deg, #006644, #00b86b);
+  color: white;
+  text-align: center;
+  padding: 15px 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+/*/
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f6fdf8;
+  color: #222;
+  margin: 0;
+  padding: 0 0 60px; /* espaço para footer */
+}
+
+
+header {
+  background: linear-gradient(120deg, #006644, #00b86b);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.botoes {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0f4601dc;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0c3a01;
+}
+
+/* --- Seções padronizadas --- */
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background-color: #eaf8f0;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: justify;
+  line-height: 1.7;
+}
+
+section h2 {
+  text-align: center;
+  color: #006644;
+  font-size: 2em;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  border-left: 6px solid #006644;
+  padding-left: 10px;
+}
+
+section h3 {
+  color: #0f4601;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+section p {
+  margin-bottom: 18px;
+  font-size: 1em;
+  text-align: justify;
+  border-left: 6px solid #00b86b;
+  padding-left: 10px;
+}
+
+section ul {
+  margin-left: 25px;
+  margin-bottom: 18px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+/* --- Área central (caixinhas) --- */
+.meio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 15px;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.caixinha {
+  background-color: rgba(15, 70, 1, 0.85);
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  max-width: 600px;
+  width: 90%;
+}
+
+.caixinha h1,
+.caixinha h2,
+.caixinha h3 {
+  margin: 10px 0;
+}
+
+.meio button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0f4601dc;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.meio button:hover {
+  background-color: #0c3a01;
+}
+
+/* --- Fotos da biomaket --- */
+.fotonos {
+  display: block;
+  margin: 10px auto;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Vídeo --- */
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+video {
+  width: 80%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* --- Footer --- */
+footer {
+  background: linear-gradient(120deg, #006644, #00b86b);
+  color: white;
+  text-align: center;
+  padding: 15px 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1px;
 }

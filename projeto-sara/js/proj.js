@@ -2,15 +2,15 @@ document.getElementById("btn4").addEventListener("click", function() {
   window.location.href = "quemsomos.html";
 });
 
-document.getElementById("btn2").addEventListener("click", function() {
+document.getElementById("btn1").addEventListener("click", function() {
   window.location.href = "nanotecnologia.html";
 });
 
 document.getElementById("btn3").addEventListener("click", function() {
-  window.location.href = "pesquisadores.html";
+  window.location.href = "aplicacoes.html";
 });
 
-document.getElementById("btn1").addEventListener("click", function() {
+document.getElementById("btn2").addEventListener("click", function() {
   window.location.href = "tipos.html";
 });
 
