@@ -1,5 +1,9 @@
 /* ======== ESTILO PADRÃO RESPONSIVO ======== */
 
+* {
+  box-sizing: border-box; /* evita que padding/width ultrapassem a tela */
+}
+
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f6fdf8;
