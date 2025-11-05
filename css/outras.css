@@ -127,8 +127,8 @@ section p {
 }
 
 .video-container video {
-  width: 100%; /* Faz o vídeo se ajustar à largura do container */
-  height: auto; /* Mantém proporção */
+  width: 100%; 
+  height: auto; 
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
