@@ -1,7 +1,7 @@
 
 
 * {
-  box-sizing: border-box; /* evita que padding/width ultrapassem a tela */
+  box-sizing: border-box; 
 }
 
 body {
@@ -13,7 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-/* HEADER */
 header {
   background: linear-gradient(120deg, #006644, #00b86b);
   color: white;
@@ -24,10 +23,9 @@ header {
   padding: clamp(10px, 3vw, 25px) clamp(15px, 5vw, 40px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   width: 100%;
-  min-height: auto; /* header só ocupa o topo */
+  min-height: auto;
 }
 
-/* LOGO */
 .logo {
   background: none;
   border: none;
@@ -43,7 +41,6 @@ header {
   transform: scale(1.1);
 }
 
-/* BOTÕES */
 .botoes {
   display: flex;
   flex-wrap: wrap;
@@ -66,7 +63,6 @@ button:hover {
   background-color: #0c3a01;
 }
 
-/* CONTEÚDO CENTRAL */
 .meio {
   display: flex;
   flex-direction: column;
@@ -76,7 +72,6 @@ button:hover {
   padding: clamp(60px, 10vh, 120px) 20px 40px;
 }
 
-/* CAIXINHA */
 .caixinha {
   background-color: rgba(15, 70, 1, 0.85);
   padding: clamp(25px, 6vw, 50px);
@@ -94,7 +89,6 @@ button:hover {
   font-size: clamp(1.2em, 3vw, 1.8em);
 }
 
-/* SEÇÕES */
 section {
   max-width: 900px;
   margin: clamp(40px, 10vh, 60px) auto;
@@ -123,7 +117,6 @@ section p {
   padding-left: 10px;
 }
 
-/* IMAGEM */
 .fotonos {
   display: block;
   margin: 10px auto;
@@ -132,7 +125,6 @@ section p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* RODAPÉ */
 footer {
   background: linear-gradient(120deg, #006644, #00b86b);
   color: white;

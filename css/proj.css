@@ -6,19 +6,17 @@ body {
   padding: 0;
 }
   
-  header {
+header {
   background: linear-gradient(120deg, #006644, #00b86b);
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 15px 40px;
-  text-align: center;
-  padding: 15px 8px;        
+  align-items: center;
   flex-wrap: wrap;
+  padding: clamp(10px, 3vw, 25px) clamp(15px, 5vw, 40px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   width: 100%;
-  justify-content: center; 
-  flex-direction: column; 
+  min-height: auto;
 }
 
   .logo {
