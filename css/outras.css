@@ -1,7 +1,7 @@
 
 
 * {
-  box-sizing: 600px; 
+  box-sizing: border-box; 
 }
 
 body {
@@ -117,6 +117,18 @@ section p {
   padding-left: 10px;
 }
 
+video,
+iframe {
+  display: block;
+  width: 100%;          /* ocupa toda a largura disponível */
+  max-width: 900px;     /* limite para telas grandes */
+  height: auto;         /* mantém proporção */
+  aspect-ratio: 16 / 9; /* mantém o formato padrão do vídeo */
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 .fotonos {
   display: block;
   margin: 10px auto;
@@ -124,6 +136,7 @@ section p {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
 
 footer {
   background: linear-gradient(120deg, #006644, #00b86b);
