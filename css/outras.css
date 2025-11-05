@@ -129,14 +129,13 @@ section, .video-container, video {
   box-sizing: border-box;
 }
 
-/* Ajuste extra para vídeos dentro da caixa */
 .video-container video {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 10px;
   max-height: none;
-  object-fit: contain; /* evita distorções */
+  object-fit: contain; 
 }
 
 
