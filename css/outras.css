@@ -1,3 +1,4 @@
+/* ======== ESTILO PADRÃO ======== */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f6fdf8;
@@ -16,6 +17,7 @@ header {
   flex-wrap: wrap;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   width: 100%;
+  min-height: auto; /* Garantir que NÃO ocupe toda a tela */
 }
 
 .logo {
@@ -57,8 +59,7 @@ button:hover {
   align-items: center;
   text-align: center;
   gap: 15px;
-  padding-top: 150px;
-  padding: 20px;
+  padding: 100px 20px 40px;
 }
 
 .caixinha {
@@ -69,12 +70,6 @@ button:hover {
   color: white;
   max-width: 600px;
   width: 90%;
-}
-
-.caixinha h1,
-.caixinha h2,
-.caixinha h3 {
-  margin: 10px 0;
 }
 
 section {
@@ -103,6 +98,7 @@ section p {
   font-size: 1em;
   border-left: 6px solid #00b86b;
   padding-left: 10px;
+  text-align: justify;
 }
 
 .fotonos {
@@ -125,6 +121,7 @@ footer {
   letter-spacing: 1px;
 }
 
+/* ======== TABLET ======== */
 @media (max-width: 992px) {
   header {
     padding: 20px;
@@ -139,13 +136,14 @@ footer {
   }
 }
 
+/* ======== CELULAR ======== */
 @media (max-width: 600px) {
   header {
-    padding: 15px;
+    padding: 12px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: auto; /* <-- ajustado aqui */
+    min-height: auto !important; /* força a altura automática */
   }
 
   .botoes {
@@ -170,7 +168,7 @@ footer {
   }
 
   .meio {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   footer {
@@ -179,6 +177,7 @@ footer {
   }
 }
 
+/* ======== TELAS GRANDES ======== */
 @media (min-width: 1600px) {
   .logo {
     font-size: 2em;
