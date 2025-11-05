@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function() {
+
 document.getElementById("btn4").addEventListener("click", function() {
   window.location.href = "quemsomos.html";
 });
@@ -28,4 +30,7 @@ document.getElementById("btn6").addEventListener("click", function() {
 
 document.getElementById("btn7").addEventListener("click", function() {
   window.location.href = "historia.html"; 
+});
+
+
 });
