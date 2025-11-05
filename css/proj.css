@@ -115,4 +115,92 @@ body {
     letter-spacing: 1px;
   }
 
-  
+  @media (max-width: 992px) {
+  header {
+    padding: 20px;
+    min-height: 90dvh;
+  }
+
+  .logo {
+    font-size: 1.4em;
+  }
+
+  .caixinha {
+    padding: 30px 35px;
+    width: 85%;
+  }
+
+  .meio {
+    padding-top: 140px;
+  }
+
+  button {
+    padding: 8px 18px;
+  }
+}
+
+/* Telas pequenas (celulares) */
+@media (max-width: 600px) {
+  header {
+    padding: 20px;
+    min-height: 100dvh;
+    justify-content: center;
+  }
+
+  .botoes {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .caixinha {
+    padding: 25px 20px;
+    width: 90%;
+  }
+
+  .caixinha h1 {
+    font-size: 1.4em;
+  }
+
+  .caixinha h2,
+  .caixinha h3 {
+    font-size: 1.1em;
+  }
+
+  .meio {
+    padding-top: 100px;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 12px 5px;
+  }
+}
+
+/* Telas muito grandes (monitores acima de 1600px) */
+@media (min-width: 1600px) {
+  header {
+    min-height: 100dvh;
+  }
+
+  .logo {
+    font-size: 2em;
+  }
+
+  .caixinha {
+    max-width: 800px;
+    padding: 60px 80px;
+    font-size: 1.2em;
+  }
+
+  button {
+    font-size: 1.1em;
+    padding: 12px 28px;
+  }
+}
