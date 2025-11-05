@@ -117,32 +117,28 @@ section p {
   padding-left: 10px;
 }
 
-.video-container {
-  background-color: rgba(15, 70, 1, 0.85); /* mesmo fundo da caixinha */
-  padding: clamp(20px, 5vw, 40px); /* ajusta o espaço conforme a tela */
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  color: white;
-  max-width: 600px; /* limite igual à caixinha */
-  width: 90%; /* adapta em telas pequenas */
-  margin: 40px auto; /* centraliza */
-  text-align: center;
+/* Garante que nada ultrapasse a tela */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
+/* Impede que sections ou vídeos fiquem maiores que o viewport */
+section, .video-container, video {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Ajuste extra para vídeos dentro da caixa */
 .video-container video {
-  width: 100%; /* ocupa toda a largura da caixa */
-  height: auto; /* mantém proporção */
+  width: 100%;
+  height: auto;
+  display: block;
   border-radius: 10px;
-  max-height: 340px; 
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-height: none;
+  object-fit: contain; /* evita distorções */
 }
 
-.video-container p {
-  margin-top: 10px;
-  font-size: clamp(0.85em, 2vw, 1em);
-  color: #f8f8f8;
-  font-style: italic;
-}
 
 
 .fotonos {
