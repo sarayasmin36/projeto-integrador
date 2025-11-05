@@ -119,26 +119,27 @@ section p {
 
 .video-container {
   background-color: rgba(15, 70, 1, 0.85); /* mesmo fundo da caixinha */
-  padding: 40px 50px; /* mesmo espaçamento */
+  padding: clamp(20px, 5vw, 40px); /* ajusta o espaço conforme a tela */
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   color: white;
-  max-width: 600px; /* mesmo limite de largura */
-  width: 90%;
-  margin: 40px auto; /* centraliza e dá espaço vertical */
+  max-width: 600px; /* limite igual à caixinha */
+  width: 90%; /* adapta em telas pequenas */
+  margin: 40px auto; /* centraliza */
   text-align: center;
 }
 
 .video-container video {
-  width: 100%; 
-  height: auto; 
+  width: 100%; /* ocupa toda a largura da caixa */
+  height: auto; /* mantém proporção */
   border-radius: 10px;
+  max-height: 340px; /* evita exageros em telas grandes */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .video-container p {
   margin-top: 10px;
-  font-size: 0.95em;
+  font-size: clamp(0.85em, 2vw, 1em);
   color: #f8f8f8;
   font-style: italic;
 }
