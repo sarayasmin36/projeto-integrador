@@ -1,36 +1,25 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-document.getElementById("btn4").addEventListener("click", function() {
-  window.location.href = "quemsomos.html";
-});
+  // Função auxiliar para não repetir código e evitar erros
+  function redirecionar(id, destino) {
+    const botao = document.getElementById(id);
+    if (botao) {
+      botao.addEventListener("click", function() {
+        window.location.href = destino;
+      });
+    }
+  }
 
-document.getElementById("btn1").addEventListener("click", function() {
-  window.location.href = "nanotecnologia.html";
-});
+  // Botões do menu
+  redirecionar("btn1", "nanotecnologia.html");
+  redirecionar("btn2", "tipos.html");
+  redirecionar("btn3", "aplicacoes.html");
+  redirecionar("btn4", "quemsomos.html");
+  redirecionar("btn7", "historia.html");
+  redirecionar("btnLogo", "index.html");
 
-document.getElementById("btn3").addEventListener("click", function() {
-  window.location.href = "aplicacoes.html";
-});
-
-document.getElementById("btn2").addEventListener("click", function() {
-  window.location.href = "tipos.html";
-});
-
-document.getElementById("btnLogo").addEventListener("click", function() {
-  window.location.href = "index.html";
-});
-
-document.getElementById("btn5").addEventListener("click", function() {
-  window.location.href = "biomaket.html";
-});
-
-document.getElementById("btn6").addEventListener("click", function() {
-  window.location.href = "nanotecnologia.html"; 
-});
-
-document.getElementById("btn7").addEventListener("click", function() {
-  window.location.href = "historia.html"; 
-});
-
+  // Botões centrais (presentes na página inicial)
+  redirecionar("btn5", "biomaket.html");
+  redirecionar("btn6", "nanotecnologia.html");
 
 });
