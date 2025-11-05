@@ -25,3 +25,7 @@ document.getElementById("btn5").addEventListener("click", function() {
 document.getElementById("btn6").addEventListener("click", function() {
   window.location.href = "nanotecnologia.html"; 
 });
+
+document.getElementById("hist").addEventListener("click", function() {
+  window.location.href = "historia.html"; 
+});
