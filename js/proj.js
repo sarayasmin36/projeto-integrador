@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  // Botões do menu
   redirecionar("btn1", "nanotecnologia.html");
   redirecionar("btn2", "tipos.html");
   redirecionar("btn3", "aplicacoes.html");
