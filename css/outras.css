@@ -170,9 +170,6 @@ footer {
   letter-spacing: 1px;
 }
 
-/* ---------- RESPONSIVIDADE ---------- */
-
-/* Telas médias (tablets) */
 @media (max-width: 992px) {
   header {
     padding: 20px;
@@ -193,7 +190,6 @@ footer {
   }
 }
 
-/* Telas pequenas (celulares) */
 @media (max-width: 600px) {
   header {
     padding: 20px;
