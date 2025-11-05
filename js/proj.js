@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
   redirecionar("btn7", "historia.html");
   redirecionar("btnLogo", "index.html");
 
-  // Botões centrais (presentes na página inicial)
   redirecionar("btn5", "biomaket.html");
   redirecionar("btn6", "nanotecnologia.html");
 
