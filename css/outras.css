@@ -120,9 +120,9 @@ section p {
 video,
 iframe {
   display: block;
-  width: 100%;          /* ocupa toda a largura disponível */
-  max-width: 900px;     /* limite para telas grandes */
-  height: auto;         /* mantém proporção */
+  width: 100%;         
+  max-width: 900px;     
+  height: auto;         
   aspect-ratio: 16 / 9; /* mantém o formato padrão do vídeo */
   border-radius: 10px;
   margin: 20px auto;
