@@ -125,8 +125,6 @@ footer {
   letter-spacing: 1px;
 }
 
-/* =================== RESPONSIVIDADE =================== */
-
 @media (max-width: 992px) {
   header {
     padding: 20px;
