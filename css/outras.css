@@ -133,7 +133,7 @@ section p {
   width: 100%; /* ocupa toda a largura da caixa */
   height: auto; /* mantém proporção */
   border-radius: 10px;
-  max-height: 340px; /* evita exageros em telas grandes */
+  max-height: 340px; 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
